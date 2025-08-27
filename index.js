@@ -1,7 +1,7 @@
 const enhancedLogger = console.context?.("enhanced-logger") ?? console;
 
 console.debug.warn = (...args) => {
-	enhancedLogger.debug(`%c...args`, "background-color:#413c26;");
+	enhancedLogger.debug(`%c${args}`, "background-color:#413c26;");
 };
 
 console.debug.error = (...args) => {
