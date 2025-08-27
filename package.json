@@ -1,0 +1,21 @@
+{
+  "name": "@hudson-newey/enhanced-debug-levels",
+  "version": "1.0.0",
+  "author": "hudson-newey",
+  "description": "Enhanced debug levels for JavaScript",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "./index.js"
+  ],
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
+}

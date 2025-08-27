@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Enhanced Debug Levels</title>
+	</head>
+
+	<body>
+		<h1>Enhanced Debug Levels</h1>
+		<p>Go to the console to see the different debug levels</p>
+
+		<script type="module">
+			import "./index.js";
+
+			const myObject = { foo: 2, bar: [1, 2, 3] };
+
+			console.debug.warn("This is a warning message", myObject);
+			console.debug.error("This is an error message", myObject);
+			console.debug.info("This is an info message", myObject);
+
+			console.info("warn");
+		</script>
+	</body>
+</html>
